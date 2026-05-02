@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Production builds
+dist/
+**/dist/
+dist-ssr/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+**/.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+server.log
+server.err.log
+client.log
+client.err.log
+
+# Python / Machine Learning
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+venv/
+.venv/
+env/
+ml/models/*.joblib
+ml/data/cf_problem_metadata.json
+ml/data/cf_problem_metadata.csv
+ml/data/training_features.csv
+
+# Database
+*.db
+*.sqlite
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Misc
+ml.zip
